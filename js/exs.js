@@ -37,21 +37,59 @@
 // }
 
 //pp 43
-let planets = [
-  "mercurio",
-  "venus",
-  "terra",
-  "mart",
-  "jupiter",
-  "saturno",
-  "urano",
-  "neptuno",
-  "plutao",
-];
-planets[3] = "Marte";
-planets.pop();
+// let planets = [
+//   "mercurio",
+//   "venus",
+//   "terra",
+//   "mart",
+//   "jupiter",
+//   "saturno",
+//   "urano",
+//   "neptuno",
+//   "plutao",
+// ];
+// planets[3] = "Marte";
+// planets.pop();
 
-let newPlanet = prompt("qual é o novo planeta?");
-planets.unshift(newPlanet);
+// let newPlanet = prompt("qual é o novo planeta?");
+// planets.unshift(newPlanet);
 
-console.log(planets);
+// console.log(planets);
+
+// let product ={
+//   name: "casacas",
+//   inStock: true,
+//   price: 1.99,
+//   colors: ["vermelho" , "azul" , "verde"]
+// }
+
+// console.log("o preço é "+product.price+" e a cor é "+product.colors[2])
+// product.price = 2.55
+// console.log("o preço é "+product.price+" e a cor é "+product.colors[2])
+
+
+//Crie um array de filmes com pelo menos 3 filmes lá dentro, entre eles o seu preferido. Na consola, mostre "o meu filme preferido é o x e temos ainda disponíveis o x e o y.
+//Pergunte ao utilizador, através de um prompt, o seu filme preferido e coloque no array. Lance um alerta a indicar Fixe, o filme (filme escolhido) é bom.
+
+// let films = ['senhor dos anéis', 'titanic', 'braveheart'];
+
+// console.log("o meu filme prederido é o "+films[0]+ " e temos tb disponiveis "+ films[1]+" e o "+films[2])
+
+// let newFilm = prompt('qual é o teu filme preferido?');
+// films.push(newFilm)
+// console.log(films)
+
+//Crie um objecto chamado moduleWebsites. Nesse objecto, crie uma key com as matérias ['arrays', 'objectos'], uma key com as horas do módulo e outra com o nome: Sites Dinâmicos.
+//Imprima na consola('o modulo chama-se Sites Dinâmicos, tem x h e as matérias x e y. 
+//Dificuldade extra: pergunte ao user que outra matéria deu e acrescente no array de matérias, na última posição.
+
+let moduleWebsites = {
+  subjects: ['arrays', 'objectos'],
+  hours: 50,
+  name: 'Sites Dinâmicos'
+}
+
+console.log("O curso "+moduleWebsites.name+" tem "+moduleWebsites.hours+" e tem as seguintes disciplinas:" +moduleWebsites.subjects[0]+ " e "+ moduleWebsites.subjects[1])
+
+let newSubject = prompt('qual é a nova matéria?');
+moduleWebsites.subjects.push(newSubject)
