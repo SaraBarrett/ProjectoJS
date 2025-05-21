@@ -20,19 +20,38 @@
 // alert("olá "+firstName+" "+surname)
 
 //pp 39
-let dayOfWeek = prompt("que dia da semana é?").toLowerCase();
+// let dayOfWeek = prompt("que dia da semana é?").toLowerCase();
 
-if (dayOfWeek.slice(0, 5) == "sexta") {
-  alert("yay é sexta");
-}else if(dayOfWeek == 'sabado' || dayOfWeek == 'domingo' ||dayOfWeek == 'sábado'){
-    alert("fim de semana");
-}else {
-  alert("força nisso");
-}
-
+// if (dayOfWeek.slice(0, 5) == "sexta") {
+//   alert("yay é sexta");
+// }else if(dayOfWeek == 'sabado' || dayOfWeek == 'domingo' ||dayOfWeek == 'sábado'){
+//     alert("fim de semana");
+// }else {
+//   alert("força nisso");
+// }
 
 // let password= prompt("digite uma pass com pelo menos 6caracteres");
 
 // if(password.length<6){
 //     alert('pass inválida. tem que ter pelo menos 6caracteres')
 // }
+
+//pp 43
+let planets = [
+  "mercurio",
+  "venus",
+  "terra",
+  "mart",
+  "jupiter",
+  "saturno",
+  "urano",
+  "neptuno",
+  "plutao",
+];
+planets[3] = "Marte";
+planets.pop();
+
+let newPlanet = prompt("qual é o novo planeta?");
+planets.unshift(newPlanet);
+
+console.log(planets);
