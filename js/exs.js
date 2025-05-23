@@ -71,25 +71,36 @@
 //Crie um array de filmes com pelo menos 3 filmes lá dentro, entre eles o seu preferido. Na consola, mostre "o meu filme preferido é o x e temos ainda disponíveis o x e o y.
 //Pergunte ao utilizador, através de um prompt, o seu filme preferido e coloque no array. Lance um alerta a indicar Fixe, o filme (filme escolhido) é bom.
 
-// let films = ['senhor dos anéis', 'titanic', 'braveheart'];
+let films = ['senhor dos anéis', 'titanic', 'braveheart'];
 
-// console.log("o meu filme prederido é o "+films[0]+ " e temos tb disponiveis "+ films[1]+" e o "+films[2])
+console.log("o meu filme prederido é o "+films[0]+ " e temos tb disponiveis "+ films[1]+" e o "+films[2])
 
-// let newFilm = prompt('qual é o teu filme preferido?');
-// films.push(newFilm)
-// console.log(films)
+let newFilm = prompt('qual é o teu filme preferido?');
+films.push(newFilm)
+console.log(films)
 
 //Crie um objecto chamado moduleWebsites. Nesse objecto, crie uma key com as matérias ['arrays', 'objectos'], uma key com as horas do módulo e outra com o nome: Sites Dinâmicos.
 //Imprima na consola('o modulo chama-se Sites Dinâmicos, tem x h e as matérias x e y. 
 //Dificuldade extra: pergunte ao user que outra matéria deu e acrescente no array de matérias, na última posição.
 
-let moduleWebsites = {
-  subjects: ['arrays', 'objectos'],
-  hours: 50,
-  name: 'Sites Dinâmicos'
-}
+// let moduleWebsites = {
+//   subjects: ['arrays', 'objectos'],
+//   hours: 50,
+//   name: 'Sites Dinâmicos'
+// }
 
-console.log("O curso "+moduleWebsites.name+" tem "+moduleWebsites.hours+" e tem as seguintes disciplinas:" +moduleWebsites.subjects[0]+ " e "+ moduleWebsites.subjects[1])
+// console.log("O curso "+moduleWebsites.name+" tem "+moduleWebsites.hours+" e tem as seguintes disciplinas:" +moduleWebsites.subjects[0]+ " e "+ moduleWebsites.subjects[1])
 
-let newSubject = prompt('qual é a nova matéria?');
-moduleWebsites.subjects.push(newSubject)
+// let newSubject = prompt('qual é a nova matéria?');
+// moduleWebsites.subjects.push(newSubject)
+
+//pp 62
+let shoppingList=[];
+let product = prompt("Qual o produto que quer adicionar à lista?");
+let code = "fim"
+while (product != code){
+    shoppingList.push(product);
+    product = prompt("Qual o produto que quer adicionar à lista?");
+} 
+
+alert ("A sua lista de compras é: " + shoppingList);

@@ -106,13 +106,23 @@ let shoppingList = ['batatas', 'feijão', 'chocolates'];
 //shoppingList.shift();
 
 
-let multimediaCourse = {
-    courseName: 'Técnico de Multimédia',
-    hours: 1370,
-    responsible : 'António Costa',
-    modules: ['Sites Dinâmicos', 'Video', '3D']
-} 
+// let multimediaCourse = {
+//     courseName: 'Técnico de Multimédia',
+//     hours: 1370,
+//     responsible : 'António Costa',
+//     modules: ['Sites Dinâmicos', 'Video', '3D']
+// } 
 
-multimediaCourse.hours = 1000;
+// multimediaCourse.hours = 1000;
 
-console.log("o responsável é "+multimediaCourse.responsible+" e o curso tem "+multimediaCourse.hours+"h e o meu módulo preferido é "+multimediaCourse.modules[0])
+// console.log("o responsável é "+multimediaCourse.responsible+" e o curso tem "+multimediaCourse.hours+"h e o meu módulo preferido é "+multimediaCourse.modules[0])
+
+//ciclos
+let password = prompt("digite uma pass com pelo menos 6caracteres");
+
+
+while(password.length<6){
+   password = prompt("Pass inválida! digite uma pass com pelo menos 6caracteres");
+}
+
+alert('pass ok!')
