@@ -15,18 +15,18 @@
 // alert(courseName);
 // alert(courseName);
 
-//actualização de variável
+// //actualização de variável
 // let myColor = "verde";
 // alert("a minha primeira cor "+myColor)
 // myColor = "azul";
 // alert("a minha segunda cor "+myColor)
-// //constante : não pode ser alterado
+//constante : não pode ser alterado
 // const YEAR = 1986;
 
-// juntar variáveis
-let myFName = ' SaraM';
-let mySurname = 'Monteiro';
-let myFullName= myFName + ' '+mySurname;
+// // juntar variáveis
+// let myFName = ' SaraM';
+// let mySurname = 'Monteiro';
+// let myFullName= myFName + ' '+mySurname;
 
 //alert("o tamanho da variável é "+mySurname.length)
 //alert(myFName.trim().toLowerCase());
@@ -91,7 +91,13 @@ let myFullName= myFName + ' '+mySurname;
 
 // console.log("durante a semana, trabalhamos "+weekDays.length+" dias")
 
-let shoppingList = ['batatas', 'feijão', 'chocolates'];
+// let shoppingList = ['batatas', 'feijão', 'chocolates'];
+
+// console.log("o item é " +shoppingList[0])
+// console.log("o item é " +shoppingList[1])
+// console.log("o item é " +shoppingList[2])
+
+
 
 //método que adiciona no fim
 //shoppingList.push('tomates')
@@ -118,11 +124,11 @@ let shoppingList = ['batatas', 'feijão', 'chocolates'];
 // console.log("o responsável é "+multimediaCourse.responsible+" e o curso tem "+multimediaCourse.hours+"h e o meu módulo preferido é "+multimediaCourse.modules[0])
 
 //ciclos
-let password = prompt("digite uma pass com pelo menos 6caracteres");
+// let password = prompt("digite uma pass com pelo menos 6caracteres");
 
 
-while(password.length<6){
-   password = prompt("Pass inválida! digite uma pass com pelo menos 6caracteres");
-}
+// while(password.length<6){
+//    password = prompt("Pass inválida! digite uma pass com pelo menos 6caracteres");
+// }
 
-alert('pass ok!')
+// alert('pass ok!')
