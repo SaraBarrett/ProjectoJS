@@ -36,3 +36,10 @@ function printHelloTurma(){
 function printAlert(message){
     alert(message);
 }
+
+function rant(message){
+    console.log(message.toUpperCase())
+    console.log(message.toUpperCase())
+    console.log(message.toUpperCase())
+
+}
