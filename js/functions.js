@@ -43,3 +43,21 @@ function rant(message){
     console.log(message.toUpperCase())
 
 }
+
+function greet(name, course){
+    alert('Olá '+name+ ' benvindo ao curso de '+course);
+}
+
+function sum(num1, num2){
+    alert("o total é: " + (num1+num2))
+}
+
+
+//escreva uma função chamada is snake eyes
+function isSnakeEyes(num1, num2){
+    if(num1 == 1 && num2 ==1){
+        alert('yay, snake eyes');
+    }else{
+           alert('não são snake eyes');
+    }
+}
